@@ -15,7 +15,13 @@ npm run dev
 docker compose up --build
 ```
 
-Then open `http://localhost:3000`.
+Then open `http://localhost:3000` (or whatever `PORT` you set).
+
+If port 3000 is already used (e.g. Dokploy), run:
+
+```bash
+HOST_PORT=3001 docker compose up --build
+```
 
 ## Environment variables
 
