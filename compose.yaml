@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      # Local default (override as needed)
+      NEXT_PUBLIC_ALLOW_INDEXING: "0"
+      NEXT_PUBLIC_SITE_URL: "http://localhost:3000"
+      NEXT_PUBLIC_GITHUB_REPO_URL: "https://github.com/your-handle/landing-01-pulseboard"
