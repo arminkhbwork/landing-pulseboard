@@ -9,7 +9,7 @@
 SEO-first startup landing page built with **Next.js 16.1.2**, **TypeScript**, and **Tailwind CSS**.
 
 > **Live Demo**: [pulseboard.arminkhabazha.com](https://pulseboard.arminkhabazha.com/)  
-> **Repository**: [github.com/arminkhabazha/landing-pulseboard](https://github.com/arminkhabazha/landing-pulseboard)
+> **Repository**: [github.com/arminkhbwork/landing-pulseboard](https://github.com/arminkhbwork/landing-pulseboard)
 
 ## ✨ Features
 
@@ -100,7 +100,7 @@ The top navigation's last item is **Project Details**: `/project`.
 
 - Portfolio: [arminkhabazha.com](https://arminkhabazha.com)
 - Email: arminkhbwork@gmail.com
-- GitHub: [@arminkhabazha](https://github.com/arminkhabazha)
+- GitHub: [@arminkhbwork](https://github.com/arminkhbwork)
 
 ## 🤝 Contributing
 
