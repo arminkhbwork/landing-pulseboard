@@ -96,9 +96,9 @@ const faqs = [
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="bg-white dark:bg-zinc-950">
       <section className="relative overflow-hidden bg-white dark:bg-zinc-950">
-        <div className="absolute inset-0 bg-grid opacity-60 [mask-image:radial-gradient(60%_60%_at_50%_20%,black,transparent)]" />
+        <div className="bg-grid absolute inset-0 [mask-image:radial-gradient(60%_60%_at_50%_20%,black,transparent)] opacity-60" />
         <div className="pointer-events-none absolute -top-24 left-1/2 h-[520px] w-[920px] -translate-x-1/2 rounded-full bg-gradient-to-r from-violet-500/20 via-fuchsia-500/20 to-cyan-400/20 blur-3xl" />
 
         <Container className="relative py-16 sm:py-24">
@@ -109,14 +109,14 @@ export default function HomePage() {
                 <span className="h-1 w-1 rounded-full bg-zinc-300 dark:bg-white/30" />
                 SEO-first Next.js landing
               </p>
-              <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight text-zinc-950 dark:text-white sm:text-6xl">
+              <h1 className="mt-6 text-4xl font-semibold tracking-tight text-balance text-zinc-950 sm:text-6xl dark:text-white">
                 Make customer feedback{" "}
                 <span className="bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
                   actionable
                 </span>{" "}
                 in minutes.
               </h1>
-              <p className="mt-6 text-pretty text-base leading-7 text-zinc-600 dark:text-zinc-300 sm:text-lg">
+              <p className="mt-6 text-base leading-7 text-pretty text-zinc-600 sm:text-lg dark:text-zinc-300">
                 PulseBoard turns reviews, tickets, and community chatter into
                 prioritized product insights. Your roadmap, finally backed by
                 real signals.
@@ -135,7 +135,7 @@ export default function HomePage() {
           </Reveal>
 
           <Reveal className="mt-14">
-            <div className="mx-auto max-w-5xl rounded-3xl border border-zinc-200 bg-white/70 p-6 shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/5 sm:p-10">
+            <div className="mx-auto max-w-5xl rounded-3xl border border-zinc-200 bg-white/70 p-6 shadow-sm backdrop-blur sm:p-10 dark:border-white/10 dark:bg-white/5">
               <div className="grid gap-6 sm:grid-cols-3">
                 {[
                   { k: "2.1x", v: "Faster roadmap decisions" },
@@ -159,7 +159,7 @@ export default function HomePage() {
 
       <section
         id="features"
-        className="bg-white py-16 dark:bg-zinc-950 sm:py-20"
+        className="bg-white py-16 sm:py-20 dark:bg-zinc-950"
       >
         <Container>
           <SectionHeading
@@ -187,7 +187,7 @@ export default function HomePage() {
 
       <section
         id="use-cases"
-        className="bg-zinc-50 py-16 dark:bg-zinc-950 sm:py-20"
+        className="bg-zinc-50 py-16 sm:py-20 dark:bg-zinc-950"
       >
         <Container>
           <SectionHeading
@@ -215,7 +215,7 @@ export default function HomePage() {
 
       <section
         id="pricing"
-        className="bg-white py-16 dark:bg-zinc-950 sm:py-20"
+        className="bg-white py-16 sm:py-20 dark:bg-zinc-950"
       >
         <Container>
           <SectionHeading
@@ -276,7 +276,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      <section id="faq" className="bg-zinc-50 py-16 dark:bg-zinc-950 sm:py-20">
+      <section id="faq" className="bg-zinc-50 py-16 sm:py-20 dark:bg-zinc-950">
         <Container>
           <SectionHeading
             eyebrow="FAQ"
@@ -299,16 +299,16 @@ export default function HomePage() {
         </Container>
       </section>
 
-      <section id="cta" className="bg-white py-16 dark:bg-zinc-950 sm:py-20">
+      <section id="cta" className="bg-white py-16 sm:py-20 dark:bg-zinc-950">
         <Container>
           <Reveal>
-            <div className="relative overflow-hidden rounded-3xl border border-zinc-200 bg-gradient-to-br from-zinc-50 to-white p-10 shadow-sm dark:border-white/10 dark:from-white/5 dark:to-white/0 sm:p-14">
-              <div className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-gradient-to-br from-violet-500/20 to-fuchsia-500/20 blur-2xl" />
+            <div className="relative overflow-hidden rounded-3xl border border-zinc-200 bg-gradient-to-br from-zinc-50 to-white p-10 shadow-sm sm:p-14 dark:border-white/10 dark:from-white/5 dark:to-white/0">
+              <div className="pointer-events-none absolute -top-24 -right-24 h-64 w-64 rounded-full bg-gradient-to-br from-violet-500/20 to-fuchsia-500/20 blur-2xl" />
               <div className="relative mx-auto max-w-2xl text-center">
-                <h2 className="text-balance text-3xl font-semibold tracking-tight text-zinc-950 dark:text-white sm:text-4xl">
+                <h2 className="text-3xl font-semibold tracking-tight text-balance text-zinc-950 sm:text-4xl dark:text-white">
                   Turn noisy feedback into confident roadmap decisions.
                 </h2>
-                <p className="mt-4 text-pretty text-base leading-7 text-zinc-600 dark:text-zinc-300">
+                <p className="mt-4 text-base leading-7 text-pretty text-zinc-600 dark:text-zinc-300">
                   Clone the repo, replace the copy, and ship a modern startup
                   landing page in hours.
                 </p>
